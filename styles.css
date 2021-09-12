@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +13,16 @@ img {
 }
 
 body{
-    font-family: "", sans-serif;
+    font-family: "Red Hat Display", sans-serif;
 }
 
+button {
+    font-family: inherit;
+}
 /* Attribution */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
