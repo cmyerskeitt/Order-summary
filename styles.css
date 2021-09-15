@@ -36,16 +36,23 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-    left: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
 
+.container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
+}
 
 /* Attribution */
 .attribution {
-     font-size: 11px; text-align: center; 
+     font-size: 11px; 
+     text-align: center; 
 }
 .attribution a {
      color: hsl(228, 45%, 44%); 
