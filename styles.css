@@ -26,6 +26,10 @@ body{
     background-color: var(--pale-blue);
 }
 
+p { 
+    font-size: 16px;
+}
+
 button {
     font-family: inherit;
 }
@@ -39,6 +43,20 @@ button {
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-change{
+    background-color: transparent;
+    color: var (--bright-blue);
+    text-decoration: underline;
+
 }
 
 .container {
