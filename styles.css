@@ -86,25 +86,48 @@ button {
 .container {
     background-color: white;
     margin: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
 }
 
+.container h1 {
+    color: hsl(223, 47%, 23%);
+    margin:10px 0;
+}
 .container img.hero { 
     width: 100%;
     border-radius: 5px 5px 0 0;
 }
 
 .container .pricing {
-    margin: 20px auto;
-    background-color: var(--pale-blue);
+    margin: 30px auto;
+    background-color: var(--very-pale-blue);
     padding: 10px;
     width: 90%;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.container .pricing article {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container .pricing article img {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Attribution */
