@@ -73,7 +73,7 @@ button {
 .btn-primary{
     background-color: var(--bright-blue);
     color: white;
-    padding: 10px;
+    padding: 10px 70px;
     margin-bottom: 10px;
 }
 
